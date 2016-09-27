@@ -1,0 +1,86 @@
+
+
+
+
+item.itemrfcapacitortier1.name=Redstone Flux Energized Capacitor (Tier1)
+item.itemrfcapacitortier2.name=Redstone Flux Energized Capacitor (Tier2)
+item.itemrfcapacitortier3.name=Redstone Flux Energized Capacitor (Tier3)
+item.itemrfcapacitorcreative.name=Redstone Flux Energized Capacitor (Creative)
+
+item.energyarsenal.itemteslacapacitortier1.name=Tesla Energized Capacitor (Tier1)
+item.energyarsenal.itemteslacapacitortier2.name=Tesla Energized Capacitor (Tier2)
+item.energyarsenal.itemteslacapacitortier3.name=Tesla Energized Capacitor (Tier3)
+item.energyarsenal.itemteslacapacitorcreative.name=Tesla Energized Capacitor (Creative)
+
+item.energyarsenal.itemfecapacitortier1.name=Forge Energy Energized Capacitor (Tier1)
+item.energyarsenal.itemfecapacitortier2.name=Forge Energy Energized Capacitor (Tier2)
+item.energyarsenal.itemfecapacitortier3.name=Forge Energy Energized Capacitor (Tier3)
+item.energyarsenal.itemfecapacitorcreative.name=Forge Energy Energized Capacitor (Creative)
+
+
+
+item.energyarsenal.itemteslasword.name=Tesla Energized Sword
+item.energyarsenal.itemteslapickaxe.name=Tesla Energized Pickaxe
+item.energyarsenal.itemteslashovel.name=Tesla Energized Shovel
+item.energyarsenal.itemteslahoe.name=Tesla Energized Hoe
+item.energyarsenal.itemteslaaxe.name=Tesla Energized Axe
+item.energyarsenal.itemteslawrench.name=Wrench (WIP)
+
+item.itemrfsword.name=Redstone Flux Energized Sword
+item.itemrfpickaxe.name=Redstone Flux Energized Pickaxe
+item.itemrfshovel.name=Redstone Flux Energized Shovel
+item.itemrfhoe.name=Redstone Flux Energized Hoe
+item.itemrfaxe.name=Redstone Flux Energized Axe
+
+item.energyarsenal.itemfesword.name=Forge Energy Energized Sword
+item.energyarsenal.itemfepickaxe.name=Forge Energy Energized Pickaxe
+item.energyarsenal.itemfeshovel.name=Forge Energy Energized Shovel
+item.energyarsenal.itemfehoe.name=Forge Energy Energized Hoe
+item.energyarsenal.itemfeaxe.name=Forge Energy Energized Axe
+
+
+item.energyarsenal.teslaenergizedarmour.helmet.name=Tesla Energized Helmet
+item.energyarsenal.teslaenergizedarmour.chestplate.name=Tesla Energized Chestplate
+item.energyarsenal.teslaenergizedarmour.leggings.name=Tesla Energized Leggings
+item.energyarsenal.teslaenergizedarmour.boots.name=Tesla Energized Boots
+
+item.energyarsenal.rfenergizedarmour.helmet.name=Redstone Flux Energized Helmet
+item.energyarsenal.rfenergizedarmour.chestplate.name=Redstone Flux Energized Chestplate
+item.energyarsenal.rfenergizedarmour.leggings.name=Redstone Flux Energized Leggings
+item.energyarsenal.rfenergizedarmour.boots.name=Redstone Flux Energized Boots
+
+item.energyarsenal.feenergizedarmour.helmet.name=Forge Energy Energized Helmet
+item.energyarsenal.feenergizedarmour.chestplate.name=Forge Energy Energized Chestplate
+item.energyarsenal.feenergizedarmour.leggings.name=Forge Energy Energized Leggings
+item.energyarsenal.feenergizedarmour.boots.name=Forge Energy Energized Boots
+
+
+item.energyarsenal.itemnetherstardust.name=Nether Star Dust
+item.energyarsenal.itemteslariumdust.name=Teslarium Dust
+item.energyarsenal.itemteslariumingot.name=Teslarium Ingot
+item.energyarsenal.itemtoolhandle.name=Tool Handle
+
+
+tooltip.energyarsenal.itemteslapickaxe.normal=Contains §e%dT/§e%dT
+tooltip.energyarsenal.itemteslaaxe.normal=Contains §e%dT/§e%dT
+tooltip.energyarsenal.itemteslashovel.normal=Contains §e%dT/§e%dT
+tooltip.energyarsenal.itemteslasword.normal=Contains §e%dT/§e%dT
+tooltip.energyarsenal.itemteslahoe.normal=Contains §e%dT/§e%dT
+
+itemGroup.teslaarsenal=Tesla Arsenal
+
+label.energyarsenal.itemteslaaxe=Contains §e%dT/§e%dT
+
+
+misc.energyarsenal:energy_stored=%d / %d RS
+
+tile.teslaarsenal.charger.name=Charger
+message.teslaarsenal.charger.status=The charger has %dT/%dT. Generating %dT per tick.
+
+
+
+
+item.energyarsenal.itemteslasword.name=Tesla Sword
+
+
+
