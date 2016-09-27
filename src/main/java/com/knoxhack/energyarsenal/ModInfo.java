@@ -3,7 +3,7 @@ package com.knoxhack.energyarsenal;
 public class ModInfo {
     public static final String PACKAGE_NAME = "com.";
     public static final String MOD_ID = "energyarsenal";
-    public static final String MOD_NAME = "Tesla Arsenal";
+    public static final String MOD_NAME = "Energy Arsenal";
     public static final String VERSION_BUILD = "1.0";
     public static final String MINECRAFT_VERSION = "@MCVERSION@";
     public static final String FORGE_VERSION = "@FORGEVERSION@";

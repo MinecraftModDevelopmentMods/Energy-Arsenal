@@ -17,6 +17,10 @@ item.energyarsenal.itemfecapacitortier2.name=Forge Energy Energized Capacitor (T
 item.energyarsenal.itemfecapacitortier3.name=Forge Energy Energized Capacitor (Tier3)
 item.energyarsenal.itemfecapacitorcreative.name=Forge Energy Energized Capacitor (Creative)
 
+item.energyarsenal.itemdarksteelingot.name=Dark Steel Ingot
+item.energyarsenal.itemdarksteelplate.name=Dark Steel Plate
+item.energyarsenal.itemcomponent.name=Component
+
 
 
 item.energyarsenal.itemteslasword.name=Tesla Energized Sword

@@ -5,7 +5,7 @@ public class ItemToolHandle extends ItemBase {
     public ItemToolHandle()
     {
         super();
-        setUnlocalizedName("teslaarsenal.itemtoolhandle");
+        setUnlocalizedName("energyarsenal.itemtoolhandle");
         setRegistryName("itemtoolhandle");
     }
 
