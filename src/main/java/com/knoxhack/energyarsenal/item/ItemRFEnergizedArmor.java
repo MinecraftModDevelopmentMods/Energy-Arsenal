@@ -53,7 +53,8 @@ public class ItemRFEnergizedArmor extends ItemRFArmor  implements IEnergyContain
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
-        tooltip.add(ChatFormatting.DARK_RED + I18n.format("[WIP]") );
+        tooltip.add(ChatFormatting.DARK_RED + I18n.format("[Energy Mode: Off]") );
+        tooltip.add(ChatFormatting.DARK_RED + I18n.format("")+ this.getEnergyStored(stack) + "/" + this.getMaxEnergyStored(stack)+ I18n.format(" RF"));
 
 	}
 	

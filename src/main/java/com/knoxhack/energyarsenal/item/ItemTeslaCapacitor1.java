@@ -91,12 +91,30 @@ public class ItemTeslaCapacitor1 extends ItemTesla
     
     
 
+	@SideOnly(Side.CLIENT)
+	@Override
+	public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
+        tooltip.add(ChatFormatting.GRAY + I18n.format("Charges other Tesla items in your inventory") );
+        tooltip.add(ChatFormatting.DARK_AQUA + I18n.format("[Energy Mode: Off]") );
+        tooltip.add(ChatFormatting.DARK_AQUA + I18n.format("")+ this.getEnergyStored(stack) + "/" + this.getMaxEnergyStored(stack)+ I18n.format(" Tesla"));
+
+
+	}
     
     
     
-    
-    
-    
+
+	private long getMaxEnergyStored(ItemStack stack) {
+		// TODO Auto-generated method stub
+		return TeslaUtils.getCapacity(stack, null);
+	}
+
+	private long getEnergyStored(ItemStack stack) {
+		// TODO Auto-generated method stub
+		return TeslaUtils.getStoredPower(stack, null);
+	}
+
+
     
     
     

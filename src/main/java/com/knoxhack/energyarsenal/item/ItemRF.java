@@ -1,9 +1,16 @@
 package com.knoxhack.energyarsenal.item;
 
-import cofh.api.energy.IEnergyContainerItem;
+import java.util.List;
 
+import com.mojang.realmsclient.gui.ChatFormatting;
+
+import cofh.api.energy.IEnergyContainerItem;
+import net.minecraft.client.resources.I18n;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemRF extends ItemBase2 implements IEnergyContainerItem {
 
@@ -83,5 +90,12 @@ public class ItemRF extends ItemBase2 implements IEnergyContainerItem {
 	public int getMaxEnergyStored(ItemStack container) {
 		return this.capacity;
 	}
+	@SideOnly(Side.CLIENT)
+	@Override
+	public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
+        tooltip.add(ChatFormatting.DARK_RED + I18n.format("[Energy Mode: ON]") );
 
+        tooltip.add(ChatFormatting.DARK_RED + I18n.format("")+ this.getEnergyStored(stack) + "/" + this.getMaxEnergyStored(stack)+ I18n.format(" RF"));
+
+	}
 }

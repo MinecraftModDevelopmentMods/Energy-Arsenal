@@ -2,6 +2,7 @@ package com.knoxhack.energyarsenal.item;
 
 
 import com.knoxhack.energyarsenal.TeslaArsenalTeslaUtilities;
+import com.mojang.realmsclient.gui.ChatFormatting;
 
 import net.darkhax.tesla.api.implementation.BaseTeslaContainer;
 import net.darkhax.tesla.api.implementation.BaseTeslaContainerProvider;
@@ -51,9 +52,22 @@ public class ItemTesla extends ItemBase
 	}
     @Override
     public void addInformation (ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
-        
-        TeslaUtils.createTooltip(stack, tooltip);
-    }
+        tooltip.add(ChatFormatting.DARK_AQUA + I18n.format("[Energy Mode: Off]") );
+
+        tooltip.add(ChatFormatting.DARK_AQUA + I18n.format("")+ this.getEnergyStored(stack) + "/" + this.getMaxEnergyStored(stack)+ I18n.format(" Tesla"));
+
+
+	}
+
+	private long getMaxEnergyStored(ItemStack stack) {
+		// TODO Auto-generated method stub
+		return TeslaUtils.getCapacity(stack, null);
+	}
+
+	private long getEnergyStored(ItemStack stack) {
+		// TODO Auto-generated method stub
+		return TeslaUtils.getStoredPower(stack, null);
+	}
 
 	private long getStoredPower(ItemStack stack, Object object) {
 		return TeslaUtils.getStoredPower(stack, null);

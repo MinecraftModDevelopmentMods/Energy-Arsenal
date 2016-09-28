@@ -76,9 +76,25 @@ public class ItemFECapacitor1 extends ItemTesla
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
-        tooltip.add(ChatFormatting.GOLD + I18n.format("[WIP]") );
+        tooltip.add(ChatFormatting.GRAY + I18n.format("Charges other Forge Energy items in your inventory") );
+
+        tooltip.add(ChatFormatting.GOLD + I18n.format("[Energy Mode: Off]") );
+        tooltip.add(ChatFormatting.GOLD + I18n.format("")+ this.getEnergyStored(stack) + "/" + this.getMaxEnergyStored(stack)+ I18n.format(" FE"));
+
 
 	}
+
+	private long getMaxEnergyStored(ItemStack stack) {
+		// TODO Auto-generated method stub
+		return TeslaUtils.getCapacity(stack, null);
+	}
+
+	private long getEnergyStored(ItemStack stack) {
+		// TODO Auto-generated method stub
+		return TeslaUtils.getStoredPower(stack, null);
+	}
+
+
 
     
 }

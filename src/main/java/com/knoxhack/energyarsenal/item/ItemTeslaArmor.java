@@ -3,10 +3,12 @@ package com.knoxhack.energyarsenal.item;
 import java.util.List;
 
 import com.knoxhack.energyarsenal.TeslaArsenalTeslaUtilities;
+import com.mojang.realmsclient.gui.ChatFormatting;
 
 import net.darkhax.tesla.api.implementation.BaseTeslaContainer;
 import net.darkhax.tesla.api.implementation.BaseTeslaContainerProvider;
 import net.darkhax.tesla.lib.TeslaUtils;
+import net.minecraft.client.resources.I18n;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -52,8 +54,10 @@ public class ItemTeslaArmor extends ItemArmor {
 	}
     @Override
     public void addInformation (ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
-        
-        TeslaUtils.createTooltip(stack, tooltip);
+        tooltip.add(ChatFormatting.DARK_AQUA + I18n.format("[Energy Mode: Off]") );
+
+        tooltip.add(ChatFormatting.DARK_AQUA + I18n.format("")+ this.getEnergyStored(stack) + "/" + this.getMaxEnergyStored(stack)+ I18n.format(" Tesla"));
+
     }
 
 	private long getStoredPower(ItemStack stack, Object object) {
@@ -63,7 +67,17 @@ public class ItemTeslaArmor extends ItemArmor {
 		return TeslaUtils.getCapacity(stack, null);
 	}
 	
-	
+
+
+	private long getMaxEnergyStored(ItemStack stack) {
+		// TODO Auto-generated method stub
+		return TeslaUtils.getCapacity(stack, null);
+	}
+
+	private long getEnergyStored(ItemStack stack) {
+		// TODO Auto-generated method stub
+		return TeslaUtils.getStoredPower(stack, null);
+	}
 	
 	
 	
