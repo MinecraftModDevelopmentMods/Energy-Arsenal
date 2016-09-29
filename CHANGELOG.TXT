@@ -1,0 +1,59 @@
+Inittial Public Release (DEV)  1.0
+
+Tesla Energized Axe - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+Redstone Flux Energized Axe - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+Forge Energy Energized Axe - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+
+Tesla Energized Pickaxe - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+Redstone Flux Energized Pickaxe - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+Forge Energy Energized Pickaxe - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+
+Tesla Energized Hoe - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+Redstone Flux Energized Hoe - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+Forge Energy Energized Hoe - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+
+Tesla Energized Shovel - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+Redstone Flux Energized Shovel - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+Forge Energy Energized Shovel - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+
+Tesla Energized Sword - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+Redstone Flux Energized Sword - (Capacity 100000, Transfer Rate 100, Energy Per Use 100)
+Forge Energy Energized Sword - (Capacity 100000, Transfer 100, Energy Per Use 100)
+
+Tesla Energized Helmet - (Capacity 100000, Transfer Rate 100, Energy Per Hit 100)
+Redstone Flux Energized Helmet - (Capacity 100000, Transfer Rate 100, Energy Per Hit 100)
+Forge Energy Energized Helmet - (Capacity 100000, Transfer Rate 100, Energy Per Hit 100)
+
+Tesla Energized Chestplate - (Capacity 100000, Transfer Rate 100, Energy Per Hit 100)
+Redstone Flux Energized Chestplate - (Capacity 100000, Transfer Rate 100, Energy Per Hit 100)
+Forge Energy Energized Chestplate - (Capacity 100000, Transfer Rate 100, Energy Per Hit 100)
+
+Tesla Energized Leggings - (Capacity 100000, Transfer Rate 100, Energy Per Hit 100)
+Redstone Flux Energized Leggings - (Capacity 100000, Transfer Rate 100, Energy Per Hit 100)
+Forge Energy Energized Leggings - (Capacity 100000, Transfer Rate 100, Energy Per Hit 100)
+
+Tesla Energized Boots - (Capacity 100000, Transfer Rate 100, Energy Per Hit 100)
+Redstone Flux Energized Boots - (Capacity 100000, Transfer Rate 100, Energy Per Hit 100)
+Forge Energy Energized Boots - (Capacity 100000, Transfer Rate 100, Energy Per Hit 100)
+
+Tesla Energized Capacitor Tier 1 - (Capacity 100000, Transfer Rate 100) - (Can charge other Tesla items in inventory)
+Redstone Flux Energized Capacitor Tier 1 - (Capacity 100000, Transfer Rate 100) - (Can charge other Redstone Flux items in inventory)
+Forge Energy Energized Capacitor Tier 1 - (Capacity 100000, Transfer Rate 100) - (Can charge other Forge Energy items in inventory)
+
+Tesla Energized Capacitor Tier 2 - (Capacity 500000, Transfer Rate 500) - (Can charge other Tesla items in inventory)
+Redstone Flux Energized Capacitor Tier 2 - (Capacity 500000, Transfer Rate 500) - (Can charge other Redstone Flux items in inventory)
+Forge Energy Energized Capacitor Tier 2 - (Capacity 500000, Transfer Rate 500) - (Can charge other Forge Energy items in inventory)
+
+Tesla Energized Capacitor Tier 3 - (Capacity 2000000, Transfer Rate 2000) - (Can charge other Tesla items in inventory)
+Redstone Flux Energized Capacitor Tier 3 - (Capacity 2000000, Transfer Rate 2000) - (Can charge other Redstone FLux items in inventory)
+Forge Energy Energized Capacitor Tier 3 - (Capacity 2000000, Transfer Rate 2000) - (Can charge other Forge Energy items in inventory)
+
+Tesla Energized Capacitor Creative - (Capacity 2000000, Transfer Rate 2000) - (Can charge other Tesla items in inventory)
+Redstone Flux Energized Capacitor Creative - (Capacity 2000000, Transfer Rate 2000) - (Can charge other Redstone FLux items in inventory)
+Forge Energy Energized Capacitor Creative - (Capacity 2000000, Transfer Rate 2000) - (Can charge other Forge Energy items in inventory)
+
+
+Items:
+Component (Craftting component)
+Dark Steel ingot
+Dark Steel Plate
